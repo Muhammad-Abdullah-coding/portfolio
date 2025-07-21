@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+body{
+    background-image: url(./—Pngtree—3d\ rendered\ minimalist\ composition\ of_6299341.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* height: 100vh; */
+    /* width: 100vh; */
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.main{
+    /* background-color: #152034; */
+    background-color: #245979c1;
+    width: 300px;
+    height: 380px;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 10px;
+
+}
+h1{
+    margin-left: 100px;
+}
+input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+}
+.emaill{
+    margin-left: 50px;
+}
+.passl{
+    margin-left: 30px;
+}
+.para{
+    margin: 20px;
+    margin-left: 30px;
+}
+.forget{
+    margin-left: 20px;
+    font: bolder;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.forget:hover{
+    color: #E8F5E9;
+}
+.forget:active{
+    color: #008CBA;
+}
+.login{
+    background-color: white;
+    color: black;
+    margin-left: 60px;
+    width: 180px;
+    height: 30px;
+    border-radius: 50px;
+}
+.login:hover{
+    cursor: pointer;
+    color: #E8F5E9;
+    background-color: #008CBA;
+}
+.login:active{
+    background-color: black;
+    color: #E8F5E9;
+}
+.para2{
+    margin: 30px;
+    margin-top: 120px;
+}
+.register{
+    margin-left: 155px;
+    color: black;
+    margin-top: 20px;
+}
+.register:hover{
+    color: #E8F5E9;
+}
+.register:active{
+    color: #008CBA;
+}

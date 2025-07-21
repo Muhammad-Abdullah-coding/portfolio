@@ -1,0 +1,679 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* header */
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: blue; 
+    /* position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 20px; */
+    color: white;
+    padding-bottom: 10px;
+}
+.navbar p{
+    margin-left: 25px;
+}
+.navbar i{
+    position: relative;
+    top: 18px;
+}
+.navbar i:hover{
+    color: black;
+}
+
+.nav{
+    display: flex;
+   height: 60px;
+   /* background-color:aliceblue; */
+   width: 100%;
+   /* border: 2px solid black; */
+}
+
+.nav img{
+    height: 30px;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+.anchor{
+    margin-top: 20px;
+}
+
+.nav a{
+    color: black;
+    text-decoration: none;
+    padding-left: 110px;
+    /* align-content: center; */
+}
+
+.nav a:hover{
+    text-decoration: underline;
+}
+
+.nav i{
+    margin-left: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: medium;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+}
+
+/* main */
+
+.one{
+    height: 490px;
+    /* border: 2px solid black; */
+    background-image: url(./Images/slider-01-1.jpg);
+    background-size: cover;
+}
+.btn2{
+    margin-top: 80px;
+    margin-left: 100px;
+    border-radius: 25px;
+}
+.one h1{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.one h2{
+    margin-top: 20px;
+    margin-left: 100px;
+    color: blue;
+    font-weight: bolder;
+    font-size: xx-large
+}
+.one p{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.btn3{
+    margin-top: 30px;
+    margin-left: 80px;
+    border-radius: 70px;
+}
+
+.card{
+   /* border: 2px solid black; */
+   display: flex;
+   justify-content: center;
+   position: relative;
+   top: -50px;
+   gap: 20px;
+}
+.card div{
+    border: 2px solid white;
+    border-top-color:blue ;
+    border-bottom-color:blue;
+    height: 190px;
+    width: 170px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+.card img{
+    margin-top: 15px;
+    border-radius: 50%;
+    width: 100px;
+}
+.card h2{
+    margin-top: 10px;
+}
+.card p{
+    margin-top: 25px;
+    color: blue;
+    cursor: pointer;
+}
+.card p:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.two{
+    width:100% ;
+    display: flex;
+    /* border: 2px solid black; */
+    height: 500px
+    
+    
+}
+.two img{
+    height: 350px;
+    padding-left: 170px;
+    padding-top: 100px;
+}
+.two h4{
+    padding-top: 100px;
+    padding-left: 40px;
+    color: blue;
+}
+.two h2{
+    padding-top: 10px;
+    padding-left:40px;
+}
+.two p{
+    padding-top: 10px;
+    padding-left:40px;
+}
+.two i{
+    padding-top: 30px;
+    padding-left:40px;
+}
+
+.three{
+    border: 2px solid black;
+    height: 680px;
+    background-image: url(./Images/slider-01-1.jpg);
+    background-size: cover;
+    filter: brightness(0.8);
+}
+.three div p{
+    margin-left: 45%;
+    color: blue;
+    margin-top: 10px;
+}
+.three div h2{
+    margin-left: 30%;
+    margin-top: 10px;
+}
+.cards{
+    display: flex;
+    justify-content:space-around ;
+    
+}
+.cards div{
+    border: 2px solid black;
+    margin-top: 50px;
+    height: 180px;
+    width: 185px;
+    border-radius: 15px;
+}
+
+.cards div:hover{
+    cursor: pointer;
+}
+
+.cards i{
+    padding-left: 90px;
+    padding-top: 15px;
+    color: blue;
+}
+
+.cards i:hover{
+    color: black;
+}
+
+.cards h3{
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+.cards h3:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.cards h5{
+    padding-left:25px ;
+    padding-top: 15px;
+}
+.cards h5:hover{
+     color: blue;
+}
+
+.cards2{
+    display: flex;
+    justify-content:space-around ;
+}
+.cards2 div{
+    border: 2px solid black;
+    margin-top: 110px;
+    height: 180px;
+    width: 185px;
+    border-radius: 15px;
+}
+
+.cards2 div:hover{
+   cursor: pointer;
+     
+}
+
+.cards2 i{
+    padding-left: 90px;
+    padding-top: 15px;
+    color: blue;
+}    
+.cards2 i:hover{
+    color: black;
+}
+.cards2 h3{
+    padding-left: 30px;
+    padding-top: 15px;
+   
+}
+
+.cards2 h3:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.cards2 h5{
+    padding-left:25px ;
+    padding-top: 15px;
+}
+.cards2 h5:hover{
+     color: blue;
+}
+
+.four{
+    border: 2px solid white;
+    position: relative;
+    top: -70px;
+    gap: 20px;
+    background-color: white;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-left: 110px;
+    border-bottom-color:blue;
+}
+.four h2{
+    /* line-height: 100px; */
+    margin-right: 180px;
+    margin-top: 15px;
+}
+
+.four span{
+    color: blue;
+}
+
+.four i{
+    margin-top: 20px;
+    padding-right: 0px;
+}
+
+.para p{
+    margin-top:20px;
+    margin-bottom: 10px;
+}
+
+.five{
+    /* border: 2px solid black; */
+}
+.five h4{
+    color: blue;
+    margin-left: 45%;
+}
+.five h2{
+    font-weight: 500;
+    margin-left: 35%;
+}
+
+.six{
+    display: flex;
+    flex-direction: row;
+}
+.six  img{
+    height: 220px;
+    width: 220px;
+    margin-left: 190px;
+    margin-top: 20px;
+}
+
+.six img:hover{
+    filter: brightness(0.3);
+}
+
+.card1{
+    border: 2px solid black;
+    width: 130px;
+    height: 70px;
+    align-content: center;
+    padding-left: 30px;
+    margin-left: 220px;
+    position: relative;
+    top: -50px;
+    gap: 20px;
+    background-color: white;
+    border-bottom-color:blue ;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+}
+ 
+/* .seven{
+    border: 2px solid black;
+    height: 500px;
+    
+} */
+.container{
+    /* border: 2px solid blue; */
+    width: 350px;
+    margin-top:150px;
+    margin-left: 300px;
+    padding:10px;
+    height: 200px;
+}
+
+.seven img{
+    height:270px ;
+    margin-left: 770px;
+    margin-right:100px;
+    margin-top: -250px;
+    
+}
+
+.container h4{
+    color: blue;
+}
+
+.container h2{
+    font-weight: 400;
+}
+
+.eight{
+    margin-top: 40px;
+    background-image: url(./Images/gallery-bg.jpg);
+    height: 150px;
+    background-size: cover;
+}
+
+.eight h4{
+    color: white;
+    padding-top: 50px;
+    padding-left:45% ;
+}
+
+.eight h1{
+    color: white;
+    padding-top: 10px;
+    padding-left:30% ;
+}
+
+.nine{
+    height: 290px;
+    width: 100%;
+    margin-top:50px ;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.nine img{
+    height: 270px;
+    width: 290px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.nine img:hover{
+    filter: brightness(0.5);
+}
+
+.card2{
+    border: 2px solid black;
+    width: 130px;
+    height: 70px;
+    align-content: center;
+    padding-left: 30px;
+    margin-left: 230px;
+    position: relative;
+    top: -50px;
+    gap: 20px;
+    background-color: white;
+    border-bottom-color:blue ;
+    border-top: white;
+    border-left: white;
+    border-right: white;
+}
+
+.card2:hover{
+    background-color: blue;
+    color: white;
+    border-bottom-color:black;
+}
+
+
+/* From Uiverse.io by Subaashbala */ 
+.btn5 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em 0em 1em 1em;
+    background-color:blue;
+    cursor: pointer;
+    box-shadow: 4px 6px 0px black;
+    border: 4px solid;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    z-index: 100;
+    transition: box-shadow 250ms, transform 250ms, filter 50ms;
+    margin-top: 50px;
+    margin-left: 45%;
+  }
+  button:hover {
+    transform: translate(2px, 2px);
+    box-shadow: 2px 3px 0px black;
+  }
+  button:active {
+    filter: saturate(0.75);
+  }
+  button::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: lightskyblue;
+    z-index: -1;
+    transform: translateX(-100%);
+    transition: transform 0ms;
+  }
+  button:hover::after {
+    transform: translateX(0);
+  }
+  .bgContainer {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    overflow: hidden;
+    max-width: 35%; /* adjust this if the button text is not proper */
+    font-size: 2em;
+    font-weight: 600;
+  }
+  .bgContainer span {
+    position: relative;
+    transform: translateX(-100%);
+    transition: all 250ms;
+  }
+  .button:hover .bgContainer > span {
+    transform: translateX(0);
+  }
+  .arrowContainer {
+    padding: 1em;
+    margin-inline-end: 1em;
+    border: 4px solid;
+    border-radius: 50%;
+    background-color:pink;
+    position: relative;
+    overflow: hidden;
+    transition: transform 250ms, background-color 250ms;
+    z-index: 100;
+  }
+  .arrowContainer::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background-color: yellow;
+    transform: translateX(-100%);
+    z-index: -1;
+    transition: transform 250ms ease-in-out;
+  }
+  button:hover .arrowContainer::after {
+    transform: translateX(0);
+  }
+  button:hover .arrowContainer {
+    transform: translateX(5px);
+  }
+  button:active .arrowContainer {
+    transform: translateX(8px);
+  }
+  .arrowContainer svg {
+    vertical-align: middle;
+  }
+  
+
+  .ten{
+    margin-top: 40px;
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 100%;
+  }
+
+  .ten img{
+    height: 360px;
+    margin-left: 300px;
+    margin-top: 50px;
+    
+  }
+  .ten div{
+    /* border: 2px solid black; */
+  }
+  .container2{
+    margin-left: 650px;
+    margin-top: -270px;
+    padding: 10px;
+  }
+  .container2 h4{
+    color: blue;
+    padding-bottom: 10px;
+  }
+  .container2 h2{
+    padding-top: 10px;
+    font-weight: 400;
+  }
+  .container2 ul {
+    padding-top: 15px;
+  }
+  .container2 ul li{
+    padding-top: 5px;
+  }
+
+.eleven{
+    /* border: 2px solid black; */
+    height: 300px;
+    width: 100%;
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: rgb(235, 241, 243); */
+} 
+.heading h4{
+    margin-left: 45%;
+    margin-top: 80px;
+    color: blue;
+}
+.heading h1{
+    margin-left: 35%;
+    margin-top: 20px;
+}
+.cards5{
+    border: 2px solid black;
+    height: 230px;
+    width: 190px;
+    margin-top: 30px;
+    margin-right: 100px;
+    border-radius: 5PX;
+    margin-left: 35px;
+    background-color: rgb(228, 244, 250);
+}
+.cards5 img{
+    padding: 10px;
+}
+.cards5 p{
+    margin-left: 20px;
+}
+.cards5 a{
+    margin-left: 20px;
+}
+
+
+.twelve{
+    background-color: blue;
+    height: 250px;
+    margin-top: 80px;
+    color: white;
+    font-size:smaller;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.twelve a{
+    color:white;
+    margin-left: 110px;
+    padding-bottom: 35px;
+}
+.twelve img{
+    padding-top: 80px;
+    padding-left: 20px;
+    
+}
+.twelve h2{
+    padding-top: 80px;
+    padding-left: 90px;
+}
+.twelve p{
+    padding-left: 20px;
+    margin-top: 15px;
+}
+i{
+    margin-top: 25px;
+    padding-left:25px ;
+    margin-left: 5px;
+    cursor: pointer;
+    transition:0.5s 0.5s;
+    padding-left: 0px;
+}
+i:hover{
+    scale: 1.1;
+}
+
+.last a{
+    margin-top: 25px;
+}
+
+
+
+ /* Responsive Design */
+ @media (max-width: 768px) {
+    .card {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+    .card-content h3 {
+        font-size: 1.2rem;
+    }
+}
